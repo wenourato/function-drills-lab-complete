@@ -218,6 +218,7 @@ upperCaseLetters(sampleString)
 
   let email = "   wyatt44@devmountain.com     "
 function emailCheck(email){
+  email = String(email)
 email = email.trim
   for(let i = 0; i < email.length; i++) {
     if(email[i] === "@") {
